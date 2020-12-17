@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+  <meta charset="utf-8"> 
+  <title>snake</title> 
+  <style>
+    .bor {
+      border: 3px solid #c3c3c3;
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <p style="padding-left: 20px;" id="codes"></p>
+  <div style="padding-left: 20px;">
+    <button onclick="myStartFunction()">开始</button> <button onclick="myStopFunction()">停止</button>
+  </div>
+
+  <canvas id="myCanvas" width="500" height="500" class="bor">
+    您的浏览器不支持 HTML5 canvas 标签。
+  </canvas>
+  <script type="text/javascript" src="main.js"></script>
+  <!-- <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#FF0000";
+        var snakes = new Array();
+        var snakeNodeNew;
+        ctx.fillRect(20, 0, 20, 20);
+        var imgData = ctx.getImageData(20, 0, 20, 20);
+        console.log(imgData.data);
+        ctx.putImageData(imgData, 20, 70);
+        document.getElementById("codes").innerText = "Hello Snake Man !";
+    </script> -->
+</body>
+
+</html>
