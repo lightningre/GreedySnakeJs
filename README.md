@@ -1,3 +1,1 @@
-# python-learning
-
-# snake by js
+# Greedy snake by javascript
